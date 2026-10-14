@@ -1,0 +1,24 @@
+# Секреты и локальные настройки
+.env
+.env.*
+!.env.example
+
+# Сборка
+/bin/
+/tmp/
+*.exe
+*.test
+*.out
+
+# Тесты и покрытие
+coverage.out
+coverage.html
+
+# Загруженные пользователями файлы
+/uploads/
+
+# Редакторы и ОС
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
